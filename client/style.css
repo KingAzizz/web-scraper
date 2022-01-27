@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+article{
+    margin: 50px;
+}
+ul{
+    list-style-type: none;
+    width: 1300px;
+    
+}
+
+.col{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size:30px ;
+    padding: 50px;
+    margin: 60px;
+  
+   padding: 20px;
+}
+.aTags{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+
+}
+.aTags:hover{
+    box-shadow: inset 0 1px 0 0 cornflowerblue;
+    color: cornflowerblue;
+}
+
+
